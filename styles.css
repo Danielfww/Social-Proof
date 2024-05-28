@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  width:90rem;
+  height:50rem;
+  background:hsl(300, 24%, 96%);
+  margin-top:8.813rem;
+}
+
+h1 {
+  height:2.375rem;
+}
+
+div {
+  display:flex;
+  width:21.875rem;
+  height:14.688rem;
+  border:black solid 1px;
+  background:hsl(300, 43%, 22%);
+  color:white;
+  align-items:center;
+  justify-content:center;
+  border-radius:10px;
+}
