@@ -8,10 +8,10 @@
 
 
 body {
-  width:90rem;
+  width:79.687rem;
   height:41.187rem;
   background:hsl(0, 0%, 100%);
-  margin-top:8.813rem;
+  margin-top:7.375rem;
   margin-left:10.313rem;
   display:grid;
   background-image: url("https://assets.codepen.io/11868974/bg-pattern-top-desktop.svg");
@@ -112,7 +112,35 @@ img {
   color:hsl(333, 80%, 67%);
 }
 
-  .star {
+  .star-1 {
+    align-items:center;
+    display:inline-flex;
+    width:27.813rem;
+    height:3.438rem;
+    background:rgb(247,242,248);
+    color:hsl(300, 43%, 22%);
+    font-weight:700;
+    position:relative;
+    left:35.625rem;
+    top:-12.563rem;
+    
+  }
+
+.star-2 {
+    align-items:center;
+    display:inline-flex;
+    width:27.813rem;
+    height:3.438rem;
+    background:rgb(247,242,248);
+    color:hsl(300, 43%, 22%);
+    font-weight:700;
+    position:relative;
+    left:500px;
+    top:-200px;
+   
+  }
+
+.star-3 {
     align-items:center;
     display:inline-flex;
     width:27.813rem;
