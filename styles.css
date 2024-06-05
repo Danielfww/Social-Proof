@@ -33,9 +33,15 @@ h1 {
 }
 
 .we {
-  font-size:18px;
-  color:hsl(300, 43%, 22%);
-  font-weight:400;
+  font-size:18.5px;
+  color:hsl(303, 10%, 53%);
+  font-weight:500;
+  line-height:25px;
+  position:relative;
+  top:20px;
+  border:none;
+  width:440px;
+  height:65px;
 }
 
 p {
@@ -54,12 +60,11 @@ img {
   flex-direction:column;
   width:21.875rem;
   height:14.688rem;
-  border:black groove 1px;
   background:hsl(300, 43%, 22%);
   color:white;
   border-radius:10px;
   position:relative;
-  top:-130px;
+  top:-75px;
 }
 
 .images-2 {
@@ -67,13 +72,12 @@ img {
   flex-direction:column;
   width:21.875rem;
   height:14.688rem;
-  border:black groove 1px;
   background:hsl(300, 43%, 22%);
   color:white;
   border-radius:10px;
   position:relative;
-  left:400px;
-  top:-350px;
+  left:380px;
+  top:-295px;
   
 }
 
@@ -82,13 +86,12 @@ img {
   flex-direction:column;
   width:21.875rem;
   height:14.688rem;
-  border:black groove 1px;
   background:hsl(300, 43%, 22%);
   color:white;
   border-radius:10px;
   position:relative;
-  left:800px;
-  top:-560px;
+  left:760px;
+  top:-515px;
 }
 
  .portrait{
@@ -123,6 +126,7 @@ img {
     position:relative;
     left:35.625rem;
     top:-12.563rem;
+    border:none;
     
   }
 
@@ -135,8 +139,9 @@ img {
     color:hsl(300, 43%, 22%);
     font-weight:700;
     position:relative;
-    left:500px;
-    top:-200px;
+    left:620px;
+    top:-185px;
+    border:none;
    
   }
 
@@ -149,8 +154,9 @@ img {
     color:hsl(300, 43%, 22%);
     font-weight:700;
     position:relative;
-    left:500px;
-    top:-200px;
+    left:665px;
+    top:-170px;
+    border:none;
     
   }
 
@@ -175,7 +181,6 @@ img {
 }
 
 div {
-  border:black solid 1px;
   border-radius:10px;
 }
 
@@ -183,11 +188,25 @@ div {
 
 .text {
   display:flex;
-  width:16.2rem;
+  width:17.8rem;
   align-items:center;
   justify-content:center;
-  line-height:20px;
+  line-height:22px;
   position:relative;
   top:20px;
   left:30px;
+  font-size:16.4px;
+}
+
+
+.text-2 {
+  display:flex;
+  width:17rem;
+  align-items:center;
+  justify-content:center;
+  line-height:22px;
+  position:relative;
+  top:20px;
+  left:30px;
+  font-size:16.4px;
 }
