@@ -117,7 +117,7 @@ img {
 .pink {
   position:relative;
   top:5px;
-  color:hsl(333, 80%, 67%);
+  color:hsl(323, 54%, 66%);
   font-size:16px;
   
 }
@@ -214,7 +214,7 @@ div {
   justify-content:center;
   line-height:22px;
   position:relative;
-  top:20px;
+  top:23px;
   left:30px;
   font-size:16.4px;
 }
