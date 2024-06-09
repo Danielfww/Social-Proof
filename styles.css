@@ -5,18 +5,16 @@
   font-family:"League Spartan";
 }
 
-
-
 body {
   width:79.687rem;
   height:42.800rem;
-  background:hsl(0, 0%, 100%);
   margin-top:7.375rem;
   margin-left:10.313rem;
   display:grid;
-  background-image: url("https://assets.codepen.io/11868974/bg-pattern-top-desktop.svg");
+  background-image: url("https://assets.codepen.io/11868974/bg-pattern-top-desktop.svg"),  url("https://assets.codepen.io/11868974/bg-pattern-bottom-desktop.svg");
   background-repeat:no-repeat;
-  background-size:70%;
+  background-position: left -2px top 0px,
+                    left 330px top 130px;
 }
 
 
@@ -181,12 +179,6 @@ img {
   font-size:17px;
 }
 
-.only {
-  width:26.25rem;
-  height:4.875rem;
-  background:white;
-  align-items:center;
-}
 
 div {
   border-radius:10px;
@@ -218,4 +210,3 @@ div {
   left:30px;
   font-size:16.4px;
 }
-
