@@ -18,6 +18,7 @@ body {
 }
 
 
+
 .h1 {
   height:9.375rem;
   width:21rem;
@@ -173,7 +174,19 @@ img {
   margin:5px;
 }
 
-.rated {
+.rated-1 {
+  position:relative;
+  left:50px;
+  font-size:17px;
+}
+
+.rated-2 {
+  position:relative;
+  left:50px;
+  font-size:17px;
+}
+
+.rated-3 {
   position:relative;
   left:50px;
   font-size:17px;
@@ -210,3 +223,122 @@ div {
   left:30px;
   font-size:16.4px;
 }
+
+
+
+@media (max-width: 475px) {
+  
+  body {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 410px;
+    height: 1530px;
+  }
+  
+  .h1 {
+    position:relative;
+    top:80px;
+    left:70px;
+    width:270px;
+    text-align:center;
+    line-height:32px;
+    letter-spacing:-1px;
+    
+   
+  }
+  
+  h1 {
+    font-size:39px;
+  }
+  
+  .we {
+    display:grid;
+    position:relative;
+    top:6px;
+    width:350px;
+    height:95px;
+    text-align:center;
+    line-height:25px;
+    left:35px;
+    
+  }
+  
+  .star-1 {
+    display:inline-flex;
+    position:relative;
+    left:30px;
+    top:10px;
+    height:75px;
+    width:350px;
+    align-items:center;
+    justify-content:center;
+    border:1px solid black;
+  }
+  
+  .star-2 {
+    display:inline-flex;
+    left:30px;
+    top:-20px;
+    height:75px;
+    width:350px;
+     align-items:center;
+    justify-content:center;
+    border:1px solid black;
+  }
+  
+  .star-3 {
+    display:inline-flex;
+    left:30px;
+    top:-50px;
+    height:75px;
+    width:350px;
+    align-items:center;
+   justify-content:center;
+    border:1px solid black;
+      
+  }
+  
+  .images-1 {
+    display:inline-flex;
+    top:30px;
+  }
+  
+  .images-2 {
+    display:inline-flex;
+    position:relative;
+    top:30px;
+    left:20px;
+    width:350px;
+  }
+  
+  .images-3 {
+    display:inline-flex;
+    position:relative;
+    top:30px;
+    left:40px;
+  }
+  
+  
+  .stars {
+    position:relative;
+    top:-14px;
+    left:100px;
+  }
+  
+  .rated-1 {
+    position:relative;
+    left:-60px;
+    top:17px;
+  }
+  
+  .rated-2 {
+    position:relative;
+    left:-120px;
+    top:10px;
+  }
+  
+  .rated-3 {
+    position:relative;
+    left:-120px;
+    top:10px;
+  }
