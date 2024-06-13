@@ -6,15 +6,17 @@
 }
 
 body {
-  width:79.687rem;
+  width:79.800rem;
   height:42.800rem;
   margin-top:7.375rem;
   margin-left:10.313rem;
   display:grid;
-  background-image: url("https://assets.codepen.io/11868974/bg-pattern-top-desktop.svg"),  url("https://assets.codepen.io/11868974/bg-pattern-bottom-desktop.svg");
+  background-image: url("https://assets.codepen.io/11868974/bg-pattern-top-desktop.svg"), url("https://assets.codepen.io/11868974/bg-pattern-bottom-desktop.svg");
   background-repeat:no-repeat;
   background-position: left -2px top 0px,
-                    left 330px top 130px;
+                    left 355px top 130px;
+  background-size:auto, 
+                  
 }
 
 
@@ -332,9 +334,12 @@ div {
   }
   
   .rated-2 {
+    display:flex;
     position:relative;
     left:-120px;
     top:10px;
+    border:black solid 1px;
+    
   }
   
   .rated-3 {
