@@ -1,28 +1,21 @@
 * {
-  margin: 0;
+   margin: 0;
   padding: 0;
   font-family:"League Spartan";
   box-sizing: border-box;
 }
 
+
+
 body {
-  box-sizing: border-box;
+  height:100%;
   width:79.800rem;
-  height:42.625rem;
   margin-top:7.375rem;
   margin-left:10.313rem;
   background-image: url("https://assets.codepen.io/11868974/bg-pattern-top-desktop.svg"), url("https://assets.codepen.io/11868974/bg-pattern-bottom-desktop.svg");
   background-repeat:no-repeat;
   background-position: left -2px top 0px,
                     left 355px top 130px;
-  background-size:auto;
-                  
-}
-
-.container {
-  height:100%;
-  margin:0px;
-  box-sizing: border-box;
 }
 
 
@@ -72,7 +65,7 @@ img {
   color:white;
   border-radius:10px;
   position:relative;
-  top:30px;
+  top:45px;
   left:-450px;
 }
 
@@ -86,7 +79,7 @@ img {
   border-radius:10px;
   position:relative;
   left:-425px;
-  top:45px;
+  top:60px;
   
 }
 
@@ -99,8 +92,8 @@ img {
   color:white;
   border-radius:10px;
   position:relative;
-  left:758px;
-  top:-175px;
+  left:760px;
+  top:-156px;
 }
 
  .portrait{
@@ -140,7 +133,7 @@ img {
     font-weight:700;
     position:relative;
     left:35.625rem;
-    top:-12.563rem;
+    top:-11.700rem;
     border:none;
     
   }
@@ -155,7 +148,7 @@ img {
     font-weight:700;
     position:relative;
     left:165px;
-    top:-131px;
+    top:-117px;
     border:none;
    
   }
@@ -170,12 +163,21 @@ img {
     font-weight:700;
     position:relative;
     left:660px;
-    top:-122px;
+    top:-105px;
     border:none;
     
   }
 
 .stars {
+  width:1.098rem;
+  height:1.098rem;
+  position:relative;
+  left:35px;
+  margin:5px;
+}
+
+
+.stars-2 {
   width:1.098rem;
   height:1.098rem;
   position:relative;
@@ -235,19 +237,24 @@ div {
 
 
 
-@media (max-width: 475px) {
+@media (max-width:475px) {
   
   body {
-    margin: 0 auto;
-    padding: 0 auto;
-    width: 375px;
-    height: 1530px;
-    background-image:none;
+    overflow-x:hidden;
+    padding:0;
+    width:100%;
+    height:1525px;
+    margin:20px;
+    background-image: url("https://assets.codepen.io/11868974/bg-pattern-top-mobile.svg"),          url("https://assets.codepen.io/11868974/bg-pattern-bottom-mobile.svg");
+    background-repeat:no-repeat;
+    background-size:120%;
+    background-position: left 0px top -50px,
+                         left 0px top 870px;
   }
-  
+ 
+ 
   .container {
-    width:345px;
-    
+   width:100%;
   }
   
   .h1 {
@@ -269,7 +276,7 @@ div {
   .we {
     display:grid;
     position:relative;
-    top:6px;
+    top:50px;
     width:350px;
     height:95px;
     text-align:center;
@@ -282,55 +289,60 @@ div {
     display:inline-flex;
     position:relative;
     left:30px;
-    top:10px;
+    top:95px;
     height:75px;
     width:350px;
     align-items:center;
     justify-content:center;
-    border:1px solid black;
+    text-align:center;
   }
   
   .star-2 {
     display:inline-flex;
     left:30px;
-    top:-20px;
+    top:113px;
     height:75px;
     width:350px;
-     align-items:center;
+    align-items:center;
     justify-content:center;
-    border:1px solid black;
+    text-align:center;
   }
   
   .star-3 {
     display:inline-flex;
     left:30px;
-    top:-50px;
+    top:135px;
     height:75px;
     width:350px;
     align-items:center;
    justify-content:center;
-    border:1px solid black;
+    text-align:center;
+    
       
   }
   
   .images-1 {
     position:relative;
-    left:0px;
+    left:30px;
+    top:185px;
+    height:245px;
   }
   
   .images-2 {
     display:inline-flex;
     position:relative;
-    top:30px;
-    left:20px;
+    top:205px;
+    left:30px;
     width:350px;
+    height:245px;
   }
   
   .images-3 {
     display:inline-flex;
     position:relative;
-    top:30px;
-    left:40px;
+    top:220px;
+    left:30px;
+    height:245px;
   }
   
   
@@ -340,6 +352,8 @@ div {
     left:100px;
   }
   
+  
+  
   .rated-1 {
     position:relative;
     left:-60px;
@@ -347,19 +361,44 @@ div {
   }
   
   .rated-2 {
-    display:flex;
+    display:inline-block;
     position:relative;
-    left:-120px;
-    top:10px;
-    border:black solid 1px;
-    
+    left:-65px;
+    top:18px;
+    text-align:center;
+    align-items:center;
+    min-width:250px;
+    letter-spacing:0.5px;
+  }
+   
+    .stars-2 {
+    position:relative;
+    top:-9px;
+    left:130px;
   }
   
   .rated-3 {
     position:relative;
-    left:-120px;
-    top:10px;
+    left:-70px;
+    top:15px;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
   }
   
+  .text {
+    height:120px;
+    width:75%;
+    top:15px;
+  }
   
+  .text-2 {
+    width:75%;
+  }
+  
+  .name {
+    font-size:15.5px;
+    
+  }
+}
   
